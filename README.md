@@ -43,7 +43,7 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
   
 ## Dataset
 
-- **[SAMSum Dataset](https://huggingface.co/datasets/samsum)**:
+- **[SAMSum](https://huggingface.co/datasets/samsum)**:
   - The SAMSum dataset contains approximately 16,000 messenger-like conversations with corresponding summaries.
     
 
