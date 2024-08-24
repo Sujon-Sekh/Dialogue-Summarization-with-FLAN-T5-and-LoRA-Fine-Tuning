@@ -4,14 +4,14 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
 
 ## Project Overview
 
-### 1. Extractive Summarization (Notebook 1)
+### 1. Extractive Summarization (Text_summarization(word_freq).ipynb)
 **Objective**: To summarize dialogues using an Extractive Summarization approach.  
 **Model Used**: Word Frequency-based Extractive Summarization.
 
 **Key Tasks**:
 - **Implement Word Frequency**: Extract key sentences from dialogues based on word frequency to generate summaries.
 
-### 2. Abstractive Summarization (Notebook 2)
+### 2. Abstractive Summarization (Summarize_dialogue_using_LLM(Flan_T5).ipynb)
 **Objective**: To summarize dialogues using an Abstractive Summarization model.  
 **Model Used**: FLAN-T5 (Fine-tuned using PEFT with LoRA).
 
@@ -25,7 +25,7 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
   - Zero Shot Inference with the Prompt Template from FLAN-T5
 - **Generative Configuration Parameters for Inference**: Fine-tuning the generative parameters for optimal performance.
 
-### 3. Fine-Tuning and Evaluation (Notebook 3)
+### 3. Fine-Tuning and Evaluation (Summarize_dialogue_using_LLM(Flan_T5).ipynb)
 **Objective**: To fine-tune and evaluate the FLAN-T5 model on a domain-specific dataset.
 
 **Key Tasks**:
