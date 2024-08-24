@@ -49,7 +49,7 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
 
 ## Evaluation and Improvement Analysis
 
-[ROUGE Metrics](https://en.wikipedia.org/wiki/ROUGE_(metric)) are used to evaluate the quality of summaries by comparing them to reference summaries. Below are the stats on ROUGE score being achieved with fine-tuning on FLAN-T5 model on samsum datasets:
+[ROUGE](https://en.wikipedia.org/wiki/ROUGE_(metric)) metrics are used to evaluate the quality of summaries by comparing them to reference summaries. Below are the stats on ROUGE score being achieved with fine-tuning on FLAN-T5 model on samsum datasets:
 
 | Model                      | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum |
 |----------------------------|---------|---------|---------|------------|
