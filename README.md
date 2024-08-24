@@ -49,25 +49,21 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
 
 ## Evaluation and Improvement Analysis
 
-### Evaluation Metrics
-
 [ROUGE Metrics](https://en.wikipedia.org/wiki/ROUGE_(metric)) are used to evaluate the quality of summaries by comparing them to reference summaries. Below are the stats on ROUGE score being achieved with fine-tuning on FLAN-T5 model on samsum datasets:
 
 | Model                      | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum |
 |----------------------------|---------|---------|---------|------------|
-| **Baseline FLAN-T5 Model** | 0.2334  | 0.0760  | 0.2015  | 0.2015     |
-| **PEFT (LoRA Fine-Tuned)** | 0.4081  | 0.1633  | 0.3251  | 0.3249     |
-
-### Improvement Analysis
+| **Baseline FLAN-T5 Model** | 0.38  | 0.014  | 0.31  | 0.31     |
+| **PEFT (LoRA Fine-Tuned)** | 0.44  | 0.17  | 0.34  | 0.34     |
 
 The fine-tuning process using PEFT resulted in significant improvements across all ROUGE metrics:
 
 | Metric    | Absolute Percentage Improvement |
 |-----------|---------------------------------|
-| ROUGE-1   | 17.47%                          |
-| ROUGE-2   | 8.73%                           |
-| ROUGE-L   | 12.36%                          |
-| ROUGE-Lsum| 12.34%                          |
+| ROUGE-1   | 5.38%                          |
+| ROUGE-2   | 2.22%                           |
+| ROUGE-L   | 3.41%                          |
+| ROUGE-Lsum| 3.35%                          |
 
 The improvements in ROUGE scores indicate that the PEFT (LoRA fine-tuned) model significantly enhances the quality of the generated summaries compared to the baseline FLAN-T5 model.
 
