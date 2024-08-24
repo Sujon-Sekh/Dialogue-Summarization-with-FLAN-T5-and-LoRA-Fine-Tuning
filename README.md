@@ -41,9 +41,10 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
   - **Evaluate the Model Qualitatively**: Human evaluation of the fine-tuned model.
   - **Evaluate the Model Quantitatively (ROUGE Metric)**: Comparing the fine-tuned model with the baseline and calculating the percentage improvement.
   
-### Dataset
+## Dataset
 
-[SAMSum Dataset](https://huggingface.co/datasets/samsum) : The SAMSum dataset contains approximately 16,000 messenger-like conversations with corresponding summaries.
+- **[SAMSum Dataset](https://huggingface.co/datasets/samsum)**:
+  - The SAMSum dataset contains approximately 16,000 messenger-like conversations with corresponding summaries.
     
 
 ## Evaluation and Improvement Analysis
@@ -78,5 +79,5 @@ This project successfully demonstrates the implementation of both Extractive and
 ## Acknowledgements
 
 - **Hugging Face**: For providing the FLAN-T5 model and the Transformers library, which were essential for implementing and fine-tuning the summarization models.
-- **The creators of the SAMSum** and **DialogSum** datasets: For their valuable contributions to dialogue summarization research, which enabled us to develop and evaluate our models effectively.
+- **The creators of the SAMSum** dataset: For their valuable contributions to dialogue summarization research, which enabled us to develop and evaluate our models effectively.
 
