@@ -1,1 +1,2 @@
-**[SAMSum](https://huggingface.co/datasets/samsum)** :  The SAMSum dataset contains approximately 16,000 messenger-like conversations with corresponding summaries.
+- **SAMSum**:
+  The SAMSum dataset contains approximately 16,000 messenger-like conversations with corresponding summaries. The dataset is available at the following link: [SAMSum Dataset](https://huggingface.co/datasets/samsum)
