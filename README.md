@@ -3,9 +3,9 @@ This repository contains an advanced dialogue summarization system using FLAN-T5
 
 ## Project Overview
 
-This project focuses on advanced dialogue summarization techniques to enhance the summarization of customer support conversations.
+### Models and Techniques
 
-## Models and Techniques
+# Models and Techniques
 
 - **Extractive Summarization**: Implemented using word frequency-based extraction to identify and summarize key sentences from dialogues.
 
